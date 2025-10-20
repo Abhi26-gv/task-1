@@ -1,0 +1,88 @@
+
+[REDACTED_PATH]> nmap -sS [REDACTED_IP]/24 -oN scan_results.txt
+nmap -sS [REDACTED_IP]/24 -oX scan_results.html 
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-20 03:59 EDT
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0039s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: [REDACTED_MAC] (zte)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+5555/tcp open  freeciv
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.024s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0055s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: [REDACTED_MAC] (TP-Link Limited)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.00016s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0000030s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 51.40 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-20 04:00 EDT
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0054s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: [REDACTED_MAC] (zte)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.019s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+5555/tcp open  freeciv
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.059s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0044s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: [REDACTED_MAC] (TP-Link Limited)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.00047s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: [REDACTED_MAC] (Unknown)
+
+Nmap scan report for [REDACTED_IP] ([REDACTED_IP])
+Host is up (0.0000030s latency).
+All 1000 scanned ports on [REDACTED_IP] ([REDACTED_IP]) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 60.49 seconds
